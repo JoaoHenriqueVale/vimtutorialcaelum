@@ -1,0 +1,84 @@
+ ========= INICIO ========= 
+
+ <----- DEIXE O CURSOR AQUI E DIGITE "10DD"
+linha 2
+linha 3
+linha 4
+linha 5
+linha 6
+linha 7
+linha 8
+linha 9
+essa é a ultima linha que será deletada por "10DD"
+
+=== BUSCA ===
+
+Nesse pequeno texto há muitas palavras, afinal, é um texto feito de palavras.
+Uma frase tem muitas palavras, na verdade, palavras formam frases. Note que as
+palavras deste trecho não querem dizer nada, mas ainda são palavras.
+
+=== MODO INSERT ===
+
+
+def fat(n):
+	if n == 0:
+	else:
+		return n
+
+Sua missão é modificar o código acima do seguinte modo:
+	- No modo 'insert', ande com o cursor até a linha que contém o "if". 
+	- Pressione 'o', dê dois TABs e então digite "return 1". 
+	- Use ESC para voltar pra o modo 'normal'
+	- Navegue até a linha com "return n"
+	- Pressione 'A' e complete o final da linha com " * fat(n-1)"
+	- Pressione ESC novamente
+
+=== MODO VISUAL ===
+
+QUERO LER ESSA LINHA TRES VEZES
+
+NESSA LINHA EU QUERO TRES VEZES PAZ
+
+NO FIM 
+ESSE BLOCO
+PODE SUMIR
+
+if (...) {
+	....
+	...
+	...
+	...
+	...
+	...
+	...
+	...
+	...
+	...
+}
+
+Faça o seguinte:
+	- Entre no modo insert
+	- Ande com o cursor até a linha "QUERO LER..."
+	- Use a seleção por linha e selecione a linha toda com "V"
+	- Copie com 'y'
+	- Use '2p'
+	- Ande com o cursor até a linha "NESSA LINHA..."
+	- Selecione com 'v' a palavra "PAZ"
+	- Copie com 'y'
+	- Ande até o final da linha e, ainda no modo insert, pressione 'p'
+	- Use '2p' novamente
+	- Agora coloque o cursor no começo da linha "NO FIM"
+	- Use CTRL+v para entrar no modo de seleção de bloco
+	- Selecione todo o bloco destas três linhas e aperte 'x'
+	- Por fim, tente usar folding no if inteiro (use seleção por linha, 'zf' e 'zo')
+
+=== MODO COMANDO ===
+
+correctAtlernative correctAtlernative
+correctAtlernative correctAtlernative correctAtlernative correctAtlernative
+correctAtlernative correctAtlernative correctAtlernative correctAtlernative
+correctAtlernative correctAtlernative
+
+Digite ":%s/Atlernative/Alternative/g
+
+========== FIM ==========
